@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			//alert(text): 弹出提示框(警告框)
+			//window.alert("hello word");
+			//alert("hello word");
+			
+			//confirm(): 创建一个需要用户确认的对话框
+//			if(confirm("请点击确定或取消按钮")){
+//				alert("点击了确定");
+//			}else{
+//				alert("点击了取消");
+//			}
+
+			//prompt(text,defaultInput) :创建一个对话框要求用户输入信息
+//			var n1 = prompt("请输入一个数字：");
+//			alert(n1);
+
+			
+			
+			//延时器
+//			setTimeout(function(){
+				//open(url,name,[options]) : 打开一个新窗口并返回新 window 对象
+//				open("https://www.baidu.com","baidu","width=200,height=200,top=100,left=1000");
+				//window.open("about:blank","_self").close();
+				
+				//print(): 调出打印对话框
+//				print()
+//			},3000)
+			
+			setTimeout(fn,1000);
+			function fn(){
+				console.log(2)
+				setTimeout(fn,1000);
+			}
+			
+			var t3 = setTimeout("console.log(3)",3000);
+			clearTimeout(t3);
+		</script>
+	</head>
+	<body>
+
+	</body>
+</html>
